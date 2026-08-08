@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/:license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 [![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A cookiecutter-based project to stream data from [**liquidity pool**](https://polygonscan.com/address/0xAE81FAc689A1b4b1e06e7ef4a2ab4CD8aC0A087D)[^1].
+Project to stream data from [**liquidity pool**](https://polygonscan.com/address/0xAE81FAc689A1b4b1e06e7ef4a2ab4CD8aC0A087D)[^1].
 
 # Configuration
 
@@ -93,10 +93,7 @@ docker-compose up -d --build --force-recreate
 docker-compose down -v
 ```
 
-Based on [**quickview-template**](https://github.com/e183b796621afbf902067460/quickview-template)[^5].
-
 [^1]: https://polygonscan.com/address/0xAE81FAc689A1b4b1e06e7ef4a2ab4CD8aC0A087D.
 [^2]: https://python-poetry.org/.
 [^3]: https://pre-commit.com/.
 [^4]: http://0.0.0.0:8080/.
-[^5]: https://github.com/e183b796621afbf902067460/quickview-template.
